@@ -11,7 +11,6 @@ typedef struct {
 } Student;
 
 void populateStudents(Student students[]) {
-    // Manually populate the student array with names and matric numbers
     strcpy(students[0].name, "Ariyo Nifemi Stephanie");
     strcpy(students[0].matricNumber, "22/67ms/846");
 
